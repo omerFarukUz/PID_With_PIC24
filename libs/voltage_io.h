@@ -1,0 +1,11 @@
+void DAC_SEC22(unsigned char kanal);
+void DAC_AORB(unsigned char kanal);
+void MCP_4922(int valueDAC, unsigned char kanal);
+unsigned int MCP_3208V(unsigned short channel,unsigned char chip);
+void Analog_OkuV(unsigned char kanal);
+void Oransal_Cikis(unsigned int deger, unsigned char kanal);
+void Oransal_Reset();
+void Dogrusal_Cikis(unsigned int deger,unsigned char kanal);
+void Voltaj_Cikisi(unsigned char kanal,unsigned int deger,unsigned char type);
+void Voltaj_Girisi();
+void Diagnostik_Voltaj();

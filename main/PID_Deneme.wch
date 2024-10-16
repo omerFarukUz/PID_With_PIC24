@@ -1,0 +1,21 @@
+<WCH v="2">
+  <item n="_AN1" r="0" s="False" e="False" i="761"/>
+  <item n="IPC0" r="2" s="False" e="False" i="71"/>
+  <item n="_pid_out" r="3" s="True" e="False" i="704"/>
+  <item n="_pid" r="1" s="False" e="True" i="705">
+    <item n="_Kp" r="3" s="True" e="False" i="0"/>
+    <item n="_Ki" r="3" s="True" e="False" i="1"/>
+    <item n="_Kd" r="3" s="True" e="False" i="2"/>
+    <item n="_Ut" r="1" s="False" e="False" i="3"/>
+    <item n="_integral_sum" r="0" s="False" e="False" i="4"/>
+    <item n="_integral" r="0" s="False" e="False" i="5"/>
+    <item n="_derivative" r="0" s="False" e="False" i="6"/>
+    <item n="_prevError" r="0" s="False" e="False" i="7"/>
+    <item n="_prevMeasurement" r="0" s="False" e="False" i="8"/>
+    <item n="_out" r="0" s="False" e="False" i="9"/>
+  </item>
+  <item n="_Vdac" r="3" s="True" e="False" i="703"/>
+  <item n="_Vdac" r="3" s="True" e="False" i="703"/>
+  <item n="_timer" r="0" s="False" e="False" i="771"/>
+  <item n="_analogValue" r="0" s="True" e="False" i="706"/>
+</WCH>

@@ -1,0 +1,40 @@
+main
+	acilis
+		SPI1_Init
+		SPI2_Init
+		SPI3_Init
+		SPI_Set_Active
+		I2C2_Init
+			Get_Fosc_kHz
+			Delay_100ms
+			I2C2_Wait_For_Idle
+				I2C2_Is_Idle
+			Delay_1us
+			_Multiply_32x32
+			_Divide_32x32
+	sifirla
+	slot_CS
+		clockCS
+			Delay_Cyc_Long
+		Delay_Cyc_Long
+	PID_Init
+	MCP_3208V
+		slot_CS
+		SPI1_Write
+			SPI1_Read
+		SPI1_Read
+	PID_Proccess
+		_Sub_FP
+			_AddSub_FP
+		_Mul_FP
+		_Long2Float
+		_AddSub_FP
+		_Div_FP
+	MCP_4922
+		DAC_SEC22
+		slot_CS
+		SPI1_Write
+	_Long2Float
+	_Float2Longint
+timer2
+Timer1Interrupt
